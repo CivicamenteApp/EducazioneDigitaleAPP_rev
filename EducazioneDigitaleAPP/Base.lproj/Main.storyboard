@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="oDp-YZ-LCU">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--NewsVC-->
+        <scene sceneID="Xwe-uH-ycu">
+            <objects>
+                <viewController title="NewsVC" id="v4h-i8-NHP" customClass="NewsVC" customModule="EducazioneDigitaleAPP" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="jxg-if-cCI">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="33B-Ez-KL7"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="News" image="newspaper" catalog="system" id="gBd-E6-U1X"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dmb-gr-z6f" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="76" y="329"/>
+        </scene>
+        <!--CalendarVC-->
+        <scene sceneID="h1y-HQ-Q3X">
+            <objects>
+                <viewController title="CalendarVC" id="FAU-0e-jb9" customClass="CalendarVC" customModule="EducazioneDigitaleAPP" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="LS0-Ee-dib">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="bSl-vG-s1g"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Calendario" image="calendar" catalog="system" id="gC8-uZ-2bs"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eoK-Ae-pgg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="715" y="340"/>
+        </scene>
+        <!--ShareVC-->
+        <scene sceneID="mKs-Ln-XeA">
+            <objects>
+                <viewController title="ShareVC" id="9e9-PM-wtN" customClass="ShareVc" customModule="EducazioneDigitaleAPP" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="DZS-z5-FhA" userLabel="ShareView">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="mWs-dn-s6c"/>
+                        <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                        <color key="tintColor" systemColor="systemOrangeColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Share" image="square.and.arrow.up" catalog="system" id="cOm-A2-g4C"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ws3-dM-BTW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1356" y="53"/>
+        </scene>
+        <!--HomeVC-->
+        <scene sceneID="X8s-sU-8Ep">
+            <objects>
+                <viewController title="HomeVC" id="nTJ-V7-RMY" customClass="HomeVC" customModule="EducazioneDigitaleAPP" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Huc-vW-xLd">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="DkZ-Jk-H4O"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Home" image="house" catalog="system" id="MYA-HJ-Shw"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Oxh-US-zTj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="76" y="-279"/>
+        </scene>
+        <!--RicercaVC-->
+        <scene sceneID="1Hn-eh-bRR">
+            <objects>
+                <viewController title="RicercaVC" id="2EK-VX-E8u" customClass="RicercaVC" customModule="EducazioneDigitaleAPP" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kc4-mA-eAn">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="PVE-d8-5zg"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Ricerca" image="magnifyingglass" catalog="system" id="EnO-xo-V2y"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KLE-NH-j9t" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="709" y="-280"/>
+        </scene>
+        <!--Custom Tab Bar Controller-->
+        <scene sceneID="jq7-Qp-Xu6">
+            <objects>
+                <tabBarController id="oDp-YZ-LCU" customClass="CustomTabBarController" customModule="EducazioneDigitaleAPP" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="B7W-Xb-hhS">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" red="0.88915512242268036" green="0.88915512242268036" blue="0.88915512242268036" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" systemColor="systemOrangeColor"/>
+                        <color key="barTintColor" red="0.89459165592783507" green="0.89459165592783507" blue="0.89459165592783507" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="selectedImageTintColor" systemColor="systemOrangeColor"/>
+                    </tabBar>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="initialIndex">
+                            <integer key="value" value="2"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <segue destination="2EK-VX-E8u" kind="relationship" relationship="viewControllers" id="Cda-0Y-xDx"/>
+                        <segue destination="v4h-i8-NHP" kind="relationship" relationship="viewControllers" id="uzL-x2-3Gh"/>
+                        <segue destination="nTJ-V7-RMY" kind="relationship" relationship="viewControllers" id="41x-H8-cDC"/>
+                        <segue destination="FAU-0e-jb9" kind="relationship" relationship="viewControllers" id="ErT-3i-l8e"/>
+                        <segue destination="9e9-PM-wtN" kind="relationship" relationship="viewControllers" id="pY0-tq-J9e"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gAF-Pc-coo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-830" y="26"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="calendar" catalog="system" width="128" height="107"/>
+        <image name="house" catalog="system" width="128" height="104"/>
+        <image name="magnifyingglass" catalog="system" width="128" height="117"/>
+        <image name="newspaper" catalog="system" width="128" height="111"/>
+        <image name="square.and.arrow.up" catalog="system" width="108" height="128"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
